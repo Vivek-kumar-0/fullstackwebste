@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Full stack</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="mychatbot.js"></script>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="nav-item"><a href="#nav-container"> Home</div></a>
+        <div class="nav-item"><a href="#container"> Contact</div></a>
+        <div class="nav-item"><a href="">Products</div></a>
+        <div class="nav-item"><a href=""> About</div></a>
+        <button class="my-button">Signin/Signup</button>
+    </div>
+    <div class="hero-section">
+        <h1>innovation Driven</h1>
+        <h2>solution for batter life</h2>
+        <button class="hero-button">learn more...</button>
+    </div>
+    <div class="grid-header">
+        Product
+    </div>
+    <div class="container">
+        <div class="grid">
+            <article>
+                <img src="image/image1.jpg" alt="First image">
+                <p>IOT</p>
+            </article>
+            <article>
+                <img src="image/image2.jpg" alt="second image">
+                <P>MACHINE LEARNING</P>
+            </article>
+            <article>
+                <img src="image/image3.jpg" alt="third image">
+                <p></p>
+            </article>
+            <article>
+                <img src="image/image4.jpg" alt="four image">
+                <P>CLOUD COMPUTING</P>
+            </article>
+            <article>
+                <img src="image/image5.jpg" aria-multiline="Fifth image">
+                <P>AI</P>
+            </article>
+            <article>
+                <img src="image/image6.jpg" alt="6th image">
+                <p>Data Science</p>
+            </article>
+        </div>
+    </div>
+    <div class="news-container">
+    <div class="sub-container">
+        <i class="fa fa-envelope"></i>
+        <h1>Subcribe  to our newslatter<h1>
+        <p>We provide with promotional meterial as well as technical refrences so that you can updateed with letest technologhy</p>
+    </div>
+    <div class="sub-container">
+        <input type="text" placeholder="enter your mail" name="mail" required>
+    </div>
+    <div class="sub-container">
+        <button class="button">subscribe</button>
+    </div>
+</div>
+<div class="vid-container">
+    <div class="vc1">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/y5sPjzN0iaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+    <div class="vc2"> 
+    <h1 class="heading1">provide working solution and win regurds</h1>
+</div>
+</div>
+<div class="flip">
+<div class="fifth">
+    <div class="grid2-container">
+        <div class="grid2-item">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+        
+              <div class="flip-card-front">
+                <h1>Still not sure how to get your book published ?</h1>
+                <p>Talk with our publishing Expert</p>
+                <button>Register Now</button>
+              </div>
+          
+              <div class="flip-card-back">
+                <form action="/action_page.php" style="max-width:700px;height:260px;margin:auto;">
+                      <div class="main2-container">
+      
+                           <div class="input-container">
+                             <i class="fa fa-user icon"></i>
+                             <input class="input-field" type="text" placeholder="Your Full Name" name="usrnm">
+                          </div>
+      
+                          <div class="input-container">
+                                <i class="fa fa-envelope icon"></i>
+                                <input class="input-field" type="text" placeholder=" Your Email" name="email">
+                          </div>
+          
+                          <div class="input-container">
+                             <i class="fa fa-phone icon"></i>
+                             <input class="input-field" type="text" placeholder="Your Phone Number" name="phn">
+                          </div>
+      
+                          <button type="submit" class="btn">Register</button>
+                      </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="grid2-item"><h2>FAQs</h2>
+      
+          <button class="accordion">What is the publishing process?</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+      
+          <button class="accordion">how much royality will I get?</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+      
+          <button class="accordion">Who owns the rights to my book?</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          <div class="lastbtn">
+            <button>Learn More</button>
+          </div>
+        </div>
+          <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+      
+            for (i = 0; i < acc.length; i++)
+            {
+                acc[i].addEventListener("click", function() 
+                {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") 
+                  {
+                    panel.style.display = "none";
+                  } 
+                  else 
+                  {
+                    panel.style.display = "block";
+                  }
+                });
+          }
+          </script>
+        </div>
+    </div>      
+</div>
+<div class="contact-container">
+    <div class="class1">
+        <div class="class1-items">
+            <i class="fa fa-university" ></i>
+            <p>Address manav rachna faridabad</p>
+        </div>
+        <div class="class1-items">
+            <i class="fa fa-envelope"></i>
+           <p>info@manavrachna.edu.in</p> 
+        </div>
+        <div class="class1-items">
+            <i class="fa fa-phone-square" ></i>
+            <p>phone:0129-4198294 </p>
+        </div>
+    </div>
+    <div class="class2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1753.9840482874204!2d77.28155871744386!3d28.450378100000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce0ab6fec0aab%3A0x87c9e10e1ae0b0fc!2sManav%20Rachna%20International%20Institute%20Of%20Research%20And%20Studies!5e0!3m2!1sen!2sin!4v1658309049317!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div>
+</div>
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+
+    <h3>Company<span>logo</span></h3>
+
+    <p class="footer-links">
+      <a href="#" class="link-1">Home</a>
+      
+      <a href="#">Blog</a>
+    
+      <a href="#">Pricing</a>
+    
+      <a href="#">About</a>
+      
+      <a href="#">Faq</a>
+      
+      <a href="#">Contact</a>
+    </p>
+
+    <p class="footer-company-name">Company Name © 2015</p>
+  </div>
+
+  <div class="footer-center">
+
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+    </div>
+
+    <div>
+      <i class="fa fa-phone"></i>
+      <p>+1.555.555.5555</p>
+    </div>
+
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="mailto:support@company.com">support@company.com</a></p>
+    </div>
+
+  </div>
+
+  <div class="footer-right">
+
+    <p class="footer-company-about">
+      <span>About the company</span>
+      Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+    </p>
+
+    <div class="footer-icons">
+
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+
+    </div>
+
+  </div>
+
+</footer>
+</body>
+</html>
